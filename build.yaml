@@ -5,6 +5,8 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: levels54_right
   - board: levels54_left
-    shield: settings_reset
+    name: levels54_left_settings_reset
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
   - board: levels54_right
-    shield: settings_reset
+    name: levels54_right_settings_reset
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
